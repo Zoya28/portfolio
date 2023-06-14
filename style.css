@@ -67,7 +67,7 @@ header{
     background-color: #fd5656;
     border-radius: 10px 30px;
 }
-.bg-vid{
+#bg-vid{
     position: absolute;
     z-index: -1;
     width: 100%;
