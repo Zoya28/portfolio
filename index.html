@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Portfolio</title>
+    <link rel="shortcut icon" type="image/png" href="images/ZQ.png">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500&family=Poppins:wght@100;400&family=Tsukimi+Rounded&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="all.css">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <video class="bg-vid" autoplay loop muted plays-inline>
+        <source src="images/vid.mp4" type="video/mp4">
+    </video>
+    <header>
+        <div class="nav1">
+            <ul>
+                <li><a href="index.html" style="--i:1;">Home</a></li>
+                <li><a href="#about" style="--i:2;">about</a></li>
+            </ul>
+        </div>
+        <div class="nav">
+            <img src="images/logo.png" alt="logo">
+        </div>
+        <div class="nav1">
+            <ul>
+                <!-- <li><a href="#" style="--i:3;">work</a></li> -->
+                <li><a href="#contact1" style="--i:4;">contact </a></li>
+                <li><a href="doc/Zoya's resume.docx" style="--i:3;">download resume</a></li>
+            </ul>
+        </div>
+    </header>
+    <div class="overlay"></div>
+    <div class="under">
+        <div class="main">
+            <h2>hi there, <br> i'm <span class="name">zoya qureshi.</span></h2>
+            <p>I am a <span class="web"> Web Developer.</span></p>
+            <a href="#about" class="btn">about me <i class="fa-solid fa-angles-down"></i></a>
+        </div>
+        <div class="contact">
+            <a href="https://github.com/Zoya28" target="_blank" style="--i:1;"><i class="fa-brands fa-github" style="color:black; background-color: #ffffff; border-radius: 30px;"></i></a>
+            <a href="https://www.linkedin.com/in/zoya28" target="_blank" style="--i:2;"><i class="fa-brands fa-linkedin" style="color: blue;"></i></a>
+            <a href="https://twitter.com/ZoyaQi" target="_blank" style="--i:3;"><i class="fa-brands fa-twitter" style="color: rgb(14, 125, 252);"></i></a>
+            <a href="mailto: zoyaqureshi28103@gmail.com" target="_blank" style="--i:4;"><i class="fa-regular fa-envelope" style="color: white; background-color: black; border-radius: 7px; padding: 0px 2px;"></i></a>
+        </div>
+    </div>
+    <div id="about">
+        <div class="image">
+            <img src="images/point.png" alt="introduction">
+        </div>
+        <div class="containt">
+            <h3>Hi, i'm Zoya Qureshi, a passionate web developer with a love for crafting beautiful and functional websites.</h3>
+            <p>Throughout my journey as a web developer, I have honed my skills in front-end technologies such as HTML, CSS, and JavaScript. I take pride in creating responsive and intuitive designs that seamlessly adapt to different devices and screen sizes. By leveraging the power of frameworks like Bootstrap and libraries like jQuery, I ensure that my websites not only look great but also perform flawlessly.</p>
+            <p>I believe in working together and communicating effectively. I enjoy being part of a team where we can share ideas and be creative. I'm always learning and staying up to date with the latest trends and techniques in web development.</p>
+            <p>Thank you for visiting my portfolio website. Take a look at my projects, and if you want to work together on something great, feel free to get in touch!</p>
+            <!-- <a href="doc/Zoya's resume.docx" class="r">Download Resume</a> -->
+            <a href="#contact1" class="c">contact me</a>
+        </div>
+    </div>
+    <div id="contact1">
+            <div class="box1">
+                <h5>CONTACT</h5>
+                <h1>Got something to say?</h1>
+                <p>Prepare your astronaut gear and share your visionary concepts for crafting your ideal website.</p>
+                <div class="info">
+                    <a href="mailto:zoyaqureshi28103@gmail.com"><i class="fa-regular fa-envelope"></i> zoyaqureshi28103@gmail.com</a>
+                    <a href="https://github.com/Zoya28" target="_blank" style="--i:1;"><i class="fa-brands fa-github"></i> Github</a>
+                    <a href="https://www.linkedin.com/in/zoya28" target="_blank" style="--i:2;"><i class="fa-brands fa-linkedin" ></i> linkedIn</a>
+                    <a href="https://twitter.com/ZoyaQi" target="_blank" style="--i:3;"><i class="fa-brands fa-twitter"></i> twitter</a>
+                </div>
+            </div>
+            <div class="box2">
+                <form action="#" >
+                    <label for="fname"> Name</label>
+                    <input type="text" name="fname"  required>
+                    <label for="email">Gmail</label>
+                    <input type="email" required>
+                    <label for="freeform">Write down your message here...</label>
+                    <textarea id="freeform" name="freeform" rows="7" cols="50">
+                    </textarea>
+                    <input type="submit" value="hit me up">
+                    
+                </form>
+            </div>
+        </div>
+    <script type="text/javascript" src="all.js"></script>
+</body>
+</html>
