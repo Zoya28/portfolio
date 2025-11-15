@@ -106,14 +106,13 @@ export function About() {
               <h3 className="text-xl font-bold text-cyan-400 font-mono">PROFILE.txt</h3>
             </div>
             <div className="space-y-3 text-purple-200 leading-relaxed">
-              <p className="font-mono text-sm">
-                {'> AI Engineer specializing in LLM-powered applications'}
+
+                <p className="font-mono text-md font-bold" >Hey there! I’m Zoya Qureshi</p>
+              <p className="font-mono text-md">
+                I’m an AI Engineer who loves designing intelligent systems that solve real problems with elegance and precision. From building models to fine-tuning algorithms, I enjoy the challenge of making machines a little smarter every day.
               </p>
-              <p>
-                Experienced in building scalable GenAI solutions with proven track record in optimizing ML models and deploying production-ready AI systems. Skilled in architecting RAG pipelines, fine-tuning language models, and implementing efficient MLOps workflows.
-              </p>
-              <p>
-                Successfully delivered chatbots, AI voice assistant, and machine learning models that improved accuracy by 30% and reduced latency by 15%.
+              <p className="font-mono text-md">
+                When I’m not experimenting with new architectures or arguing with code that “should’ve worked,” you’ll find me exploring new recipes, diving into anime, playing volleyball, or losing track of time in a good novel. I bring curiosity, creativity, and just the right amount of sass to everything I build.
               </p>
             </div>
           </div>
@@ -128,6 +127,16 @@ export function About() {
                 <p className="text-pink-400 font-semibold">B.Tech in AI & Data Science</p>
                 <p className="text-purple-300 text-sm">Chameli Devi Group of Institutions</p>
                 <p className="text-cyan-400 text-sm font-mono">2021 - 2025</p>
+              </div>
+                <div className="border-l-2 border-pink-500 pl-4">
+                <p className="text-pink-400 font-semibold">Higher Secondary School</p>
+                <p className="text-purple-300 text-sm">Bright Star Public Higher Secondary Scchool</p>
+                <p className="text-cyan-400 text-sm font-mono">85%</p>
+              </div>
+                <div className="border-l-2 border-pink-500 pl-4">
+                <p className="text-pink-400 font-semibold">Secondary School</p>
+                <p className="text-purple-300 text-sm">Bright Star Public Higher Secondary Scchool</p>
+                <p className="text-cyan-400 text-sm font-mono">84.6%</p>
               </div>
             </div>
           </div>
