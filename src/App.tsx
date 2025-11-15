@@ -28,7 +28,7 @@ const App = () => {
                 <footer className="py-6 px-4 border-t-2 border-purple-500/30 bg-black">
                   <div className="max-w-7xl mx-auto text-center">
                     <p className="text-cyan-400 font-mono text-xs mt-2">
-                      © 2025 Zoya Qureshi. 
+                      © 2025 Zoya Qureshi.ALL RIGHTS ARE RESERVED.
                     </p>
                   </div>
                 </footer>
