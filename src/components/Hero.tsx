@@ -49,7 +49,7 @@ export function Hero() {
           </div>
         </div>
 
-        <h1 className="text-6xl md:text-6xl font-bold mb-6">
+        <h1 className="text-5xl md:text-5xl font-bold mb-5">
           <span className="text-white" style={{
             textShadow: '0 0 20px rgba(139, 92, 246, 0.8), 0 0 30px rgba(139, 92, 246, 0.5)',
           }}>
