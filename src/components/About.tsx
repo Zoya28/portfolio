@@ -138,6 +138,7 @@ export function About() {
                 <p className="text-purple-300 text-sm">Bright Star Public Higher Secondary Scchool</p>
                 <p className="text-cyan-400 text-sm font-mono">84.6%</p>
               </div>
+
             </div>
           </div>
         </div>
